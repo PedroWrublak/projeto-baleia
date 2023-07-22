@@ -1,0 +1,26 @@
+:root {
+    --cor0: #7397fb9f
+}
+
+body {
+    background-color: var(--cor0);
+}
+
+main {
+    background-color: white;
+    max-width: 600px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.26);
+}
+
+main > h1 {
+    display: flex;
+    justify-content: center;
+}
+
+main > p {
+    display: flex;
+    text-align: justify;
+}
