@@ -1,5 +1,9 @@
 :root {
-    --cor0: #7397fb9f
+    --cor0: #5D86EE;
+    --cor1: #1552EB;
+    --cor2: #1140B8;
+    --cor3: #243E80;
+    --cor4: #061742;
 }
 
 body {
@@ -16,6 +20,7 @@ main {
 }
 
 main > h1 {
+    color: var(--cor4);
     display: flex;
     justify-content: center;
 }
