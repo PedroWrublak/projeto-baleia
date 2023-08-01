@@ -35,3 +35,11 @@ main > section >  p {
     display: flex;
     text-align: justify;
 }
+
+footer{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    max-width: px;
+    margin: 20px;
+}
