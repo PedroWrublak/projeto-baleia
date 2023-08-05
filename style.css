@@ -16,6 +16,8 @@ header > a {
     color: white;
     text-decoration: none;
     justify-content: end;
+    max-width: 800px;
+    margin: 20px;
     padding: 5px;
     border-radius: 5px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.26);
