@@ -1,9 +1,14 @@
 :root {
     --cor0: #5d86eece;
-    --cor1: #1552EB;
+    --cor1: #1552ebb9;
     --cor2: #1140B8;
     --cor3: #243E80;
     --cor4: #061742;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
 }
 
 body {
@@ -21,7 +26,7 @@ header > a {
     color: white;
     text-decoration: none;
     width: 50px;
-    margin: 10px 10px 30px 10px;
+    margin: 10px 10px 20px 10px;
     padding: 5px;
     border-radius: 5px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.26);
@@ -31,50 +36,69 @@ header > a:hover {
     background-color: var(--cor2);
 }
 
-
 main {
     background-color: white;
     min-width: 320px;
     max-width: 750px;
     margin: auto;
-    padding: 10px;
     border-radius: 10px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.26);
 }
 
-section#jubarte {
+section {
     text-align: center;
-}
-
-section#orca {
-    text-align: center;
-}
-
-img {
     padding: 10px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.26);
 }
 
-main > section > h1 {
-    color: var(--cor4);
-    display: flex;
-    justify-content: center;
+section#intro {
+    background-color: var(--cor);
+    border-radius: 10px 10px 0px 0px;
 }
+
+section#intro > h1 {
+    display: flex;
+    color: white;
+    background-color: var(--cor4);
+    justify-content: center;
+    padding: 3px;
+    border-radius: 10px;
+}
+
 
 main > section > h2 {
-    color: var(--cor4);
     display: flex;
+    color: white;
+    background-color: var(--cor4);
     justify-content: center;
+    padding: 3px;
+    border-radius: 10px;
 }
 
 main > section >  p {
     display: flex;
     text-align: justify;
+    padding: 5px;
+    margin: 5px;
 }
+
+img {
+    padding: 10px;
+    margin: 30px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.26);
+}
+
 footer{
+    display: flex;
+    justify-content: center;
+  
+}
+
+footer > p {
     display: flex;
     background-color: white;
     justify-content: center;
+    width: 750px;
+    padding: 8px;
     margin: 20px;
     border-radius: 10px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.26);
