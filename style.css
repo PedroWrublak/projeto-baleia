@@ -1,6 +1,6 @@
 :root {
-    --cor0: #5d86eece;
-    --cor1: #1552ebaf;
+    --cor0: #80a2f7dc;
+    --cor1: #275fec98;
     --cor2: #1140b8;
     --cor3: #243E80;
     --cor4: #061742;
@@ -17,7 +17,6 @@ body {
 
 header {
     display: flex;
-    justify-content: end;
     background-color: var(--cor1);
     height: 100px;
     margin-bottom: 20px;
@@ -30,12 +29,18 @@ header > a {
     color: white;
     text-decoration: none;
     justify-content: center;
-    width: 55px;
-    height: 20px;
-    margin: 10px 10px 20px 0px;
+    justify-self: end;
+    align-self: end;
+    margin: 0px 10px 20px 10px;
     padding: 5px;
     border-radius: 5px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.26);
+}
+
+header > h1 {
+    color: white;
+    border-radius: 10px;
+    margin: auto;
 }
 
 header > a:hover {
