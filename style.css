@@ -17,7 +17,7 @@ body {
 
 header {
     display: flex;
-    background-color: var(--cor1);
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor3)) ;
     height: 100px;
     margin-bottom: 20px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.26);
@@ -83,6 +83,8 @@ main > section > h2 {
     background-color: var(--cor4);
     justify-content: center;
     padding: 3px;
+    margin: 10px 30px 10px 30px;
+    border-radius: 5px;
 }
 
 main > section >  p {
